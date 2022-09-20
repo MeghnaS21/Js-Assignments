@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+.pt{
+   margin: 20px;
+}
+
+.blankspace{
+    height: 200px;
+}
+
+.outline{
+    border-style: solid;
+    border-color: rgb(227, 75, 75);
+}
+
+.fontnalighnment{
+    text-align: center;
+}
+
+img {
+    float:inherit;
+    width:  180px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image1{
+    padding-left: 100px;
+}
+.image2{
+    padding-left: 100px;
+}
+.image3{
+    padding-left: 100px;
+}
+.image4{
+    padding-left: 100px;
+}
+
+.box{
+    width: inherit
+    
+}

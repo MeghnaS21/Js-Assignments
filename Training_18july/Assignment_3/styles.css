@@ -1,0 +1,56 @@
+img{
+    width: 600px;
+    height: 250px;
+    padding-left: 30%;
+}
+
+.flex-container{
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.border{
+    border-style: solid;
+    border-color: rgb(36, 36, 145);
+}
+
+.boxx{
+    max-width: 300px;
+    min-width: 300px;
+    height: 50%;
+    margin: 40px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.boxx1{
+    max-width: 500px;
+    min-width: 500px;
+    height: 50%;
+    margin: 40px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.boxxException{
+    background-color: rgb(164, 12, 12);
+    color:white;
+    max-width: 300px;
+    min-width: 300px;
+    height: 50%;
+    margin: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.boxx1Exception{
+    background-color: rgb(164, 12, 12);
+    color: white;
+    max-width: 500px;
+    min-width: 500px;
+    height: 50%;
+    margin: 40px;
+    padding: 10px;
+    display: inline-block;
+
+}
