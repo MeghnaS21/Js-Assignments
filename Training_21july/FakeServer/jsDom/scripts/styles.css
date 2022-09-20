@@ -1,0 +1,209 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: pink;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headingStyle {
+    /* background-color: ghostwhite; */
+    font-size: 2.5rem;
+    /* background-color: black;
+    background: rgba(255,255,255,0.3); */
+    color: white;
+    text-align: center;
+    padding-top: 2.8%;
+}
+
+
+/* style="
+      background-color: black; color: white;
+       font-size:2rem; text-align: center;
+  " */
+.actionBox{
+    text-align: center;
+    color: black;
+    margin: 2.5%;
+}
+
+.actionBox a{
+        color: steelblue;;
+        /* text-decoration: underline; */
+        display: inline-block;
+        background-color: white;
+        border-radius: 1rem;
+        /* box-shadow: 3px 2px 2px 2px; */
+        box-shadow: 0 0 13px steelblue;
+        width: 10%;
+        font-family: initial;
+        text-decoration: none;
+    }
+
+/* .actionBox a:before{
+
+} */
+
+.actionBox a:hover {
+        /* color: #bde8eb;
+        background-color: black; */
+        color: white;
+        background-color: steelblue;
+        box-shadow: 0 0 11px rgba(3, 155, 250, 0.722);
+        width: 12%;
+        height: 2%;
+        transition: 0.2sec;
+        transition: 0.2s;
+    }
+
+/* .commonText{
+    /* font-family: initial; */
+
+
+.sides{
+    padding: 2rem;
+}
+
+.textStyle{
+    color: white;
+}
+
+.card-body h3 p{
+    color: white;
+    
+}
+
+.card{
+    width: 300px;
+    height: 230px;
+    /* background-color: #87c3eb85; */
+    background-color: #f8f8ff33;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 11px rgba(3, 155, 250, 0.722);
+}
+
+/* .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #4682b4,
+        0 0 82px #4682b4,
+        0 0 92px #4682b4,
+        0 0 102px #4682b4,
+        0 0 151px #4682b4;
+  } */
+
+.headStyle{
+    background-color: #0000006e;
+    color: white;
+}
+
+.btnStyle{
+    background-color: black;
+    color:  white;
+    border-radius: 20px;
+    /* box-shadow: 0 0 11px rgba(3, 155, 250, 0.722); */
+    box-shadow: 0 0 13px white;
+}
+
+/*------------------------------------ ADD CONTACT STYLING */
+
+
+.add-contact{
+    border-radius: 5px;
+    background-color: #f8f8ff33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+    transition: 0.5s;
+    /* margin-top: 10%; */
+  }
+
+.add-contact:hover{
+    box-shadow: 0 0 13px white;
+}
+
+.user-form{
+    border-radius: 5px;
+    background-color: #f8f8ff33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+    transition: 0.5s;
+    /* margin-top: 10%; */
+  }
+
+.user-form:hover{
+    box-shadow: 0 0 13px white;
+}
+
+
+    
+    
+    /* align-content: center; */
+    
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+/*---------------GO TO HOME PAGE-------*/
+
+.home a{
+    display: inline;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #f8f8ff33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+
+.home a:hover{
+    box-shadow: 0 0 13px white;
+}
